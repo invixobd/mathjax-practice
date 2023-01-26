@@ -52,7 +52,7 @@ export default function Home() {
         <div>
           <h3 style={{ fontWeight: "bold", textDecoration: 'underline', marginBottom: '1rem' }}>Output here</h3>
           <MathJax hideUntilTypeset={"first"}>{text}</MathJax>
-          <span>testing</span>
+          <MathJax hideUntilTypeset={"first"}>{`$a \\ne $10`}</MathJax>
         </div>
       </MathJaxContext>
     </div>
