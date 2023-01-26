@@ -52,6 +52,7 @@ export default function Home() {
         <div>
           <h3 style={{ fontWeight: "bold", textDecoration: 'underline', marginBottom: '1rem' }}>Output here</h3>
           <MathJax hideUntilTypeset={"first"}>{text}</MathJax>
+          <span>testing</span>
         </div>
       </MathJaxContext>
     </div>
