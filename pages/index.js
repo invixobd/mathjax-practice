@@ -28,14 +28,14 @@ export default function Home() {
   const [text, setText] = useState(`Nothing to show as output...`);
 
   const textHandler = (e) => {
-    const stringWithDoubleBackSlashToSingle = e.target.value.replace(
+    const stringWithDoubleBackSlashToSingle = e.target.innerText.replace(
       /\\\\/g,
       "\\"
     );
     setText(`${stringWithDoubleBackSlashToSingle}`);
     localStorage.setItem(
       "math_jax_practice",
-      stringWithDoubleBackSlashToSingle
+      JSON.stringify(stringWithDoubleBackSlashToSingle)
     );
   };
 
@@ -56,11 +56,10 @@ export default function Home() {
       <MathJaxContext version={3} config={config}>
         <div className="pt-6">
           <h2 className="text-xl font-semibold">Input here</h2>
-          <textarea
-            className="w-full border-2 border-slate-500 rounded-md mt-4 p-2"
-            onChange={textHandler}
-            rows="15"
-            value={text}
+          <div
+            contentEditable="true"
+            className="w-full border-2 border-slate-500 rounded-md mt-4 p-2 h-80"
+            onInput={textHandler}
           />
         </div>
         <div>
