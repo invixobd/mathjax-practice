@@ -4,7 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  font-family: "Poppins", sans-serif;
+@layer base {
+  html,
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@layer components {
+  .container {
+    @apply w-11/12 lg:max-w-[80rem] mx-auto;
+  }
 }
