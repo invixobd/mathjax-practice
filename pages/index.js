@@ -40,11 +40,11 @@ export default function Home() {
   };
 
   useEffect(() => {
-    const getMathJaxPracticeFromLocalStorage =
+    const mathJaxPracticeFromLocalStorage =
       localStorage.getItem("math_jax_practice");
 
-    if (getMathJaxPracticeFromLocalStorage) {
-      setText(getMathJaxPracticeFromLocalStorage);
+    if (mathJaxPracticeFromLocalStorage) {
+      setText(mathJaxPracticeFromLocalStorage);
     }
   }, []);
   return (
