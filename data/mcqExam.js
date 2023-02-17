@@ -23,7 +23,11 @@ export const mcqExam = {
         "<i>Nitrosomonas</i>",
         "<i>Azotobacter</i>",
       ],
-      explanation: `ব্যাকটেরিয়ার পচনক্রিয়ার ফলেই পাটের আশঁগুলো পৃথক হয়ে যায় এবং আমরা সহজেই পাটের কান্ড থেকে আশঁ ছাড়াতে পারি । কাজেই আমাদের অর্থনীতিতে ব্যাকটেরিয়ার ভূমিকা তুলনাহীন ৷ এ ব্যাপারে Clostridium জাতীয় ব্যাকটেরিয়ার ভূমিকা যথেষ্ট ।`,
+      explanation: `<div>ব্যাকটেরিয়ার পচনক্রিয়ার ফলেই পাটের আশঁগুলো পৃথক হয়ে যায় এবং আমরা সহজেই পাটের কান্ড থেকে আশঁ ছাড়াতে পারি । কাজেই আমাদের অর্থনীতিতে ব্যাকটেরিয়ার ভূমিকা তুলনাহীন ৷ এ ব্যাপারে Clostridium জাতীয় ব্যাকটেরিয়ার ভূমিকা যথেষ্ট । </div>
+      <br>
+      <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/yjRHZEUamCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>`,
       right_option: 1,
       selected_option: null,
     },

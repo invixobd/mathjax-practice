@@ -21,12 +21,21 @@ export default function MCQ({ mcq, mcqIndex }) {
         {mcq.options.map((option, i) => (
           <div
             key={option}
-            className={`border border-slate-300 ${mcq.right_option === i && "border-2 border-green-600 bg-green-200"} px-3 py-2 rounded-md font-medium`}
+            className={`border border-slate-300 ${
+              mcq.right_option === i && "border-2 border-green-600 bg-green-200"
+            } px-3 py-2 rounded-md font-medium`}
           >
             <Markdown>{`${getOptionName(i)}&period; ${option}`}</Markdown>
           </div>
         ))}
       </div>
+
+      {/* Explanation */}
+      {mcq.explanation && (
+        <div className="mt-4 border border-blue-400 bg-blue-200 rounded-md px-3 py-4">
+          <Markdown>{mcq.explanation}</Markdown>
+        </div>
+      )}
     </div>
   );
 }
