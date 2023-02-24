@@ -17,7 +17,7 @@ export default function MCQ({ mcq, mcqIndex }) {
       </div>
 
       {/* Options */}
-      <div className="grid grid-cols-2 gap-4 mt-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
         {mcq.options.map((option, i) => (
           <div
             key={option}
