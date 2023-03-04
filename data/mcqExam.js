@@ -8,427 +8,443 @@ export const mcqExam = {
   mcq_state: [
     {
       question_id: 1,
-      question: ` $\\sqrt{-16} \\times\\sqrt{-1}$=কোনটি?`,
-      options: [" 4 ", " -4 ", " $ \\pm4 $ ", " $ 4i $ "],
-      explanation:
-        "$\\sqrt{-16} \\times\\sqrt{-1}$ = 4i $\\times$ i= 4$i^2$= -4",
+      question: `পরীক্ষাগারে সর্বপ্রথম সংশ্লেষিত জৈব যৌগের (organic compound) নাম কি?`,
+      options: ["ইথেন", "ইউরিয়া", "অ্যাসিটিক অ্যাসিড", "অক্সালিক এসিড"],
+      explanation: "",
       right_option: 1,
+      selected_option: null,
     },
     {
       question_id: 2,
-      question: "-1+$\\sqrt3i$ এর আর্গুমেন্ট কত ?",
+      question: `বেনজিন বলয় $\\sigma$ ও $\\pi$ কয়টি বন্ধন আছে`,
       options: [
-        "$\\frac{\\pi}{3}$",
-        "$\\frac{3\\pi}{4}$",
-        "$\\frac{2\\pi}{3}$",
-        "$\\frac{\\pi}{6}$",
+        "$6 \\sigma + 3 \\pi$",
+        "$6 \\sigma + 6 \\pi$",
+        "$12 \\sigma + 3 \\pi$",
+        "$3 \\sigma + 6 \\pi$",
       ],
-      explanation:
-        "$\\theta=\\pi-\\tan ^{-1}\\left|\\frac{\\sqrt{3}}{-1}\\right|=\\pi-\\tan ^{-1}(\\sqrt{3})=\\pi-\\frac{\\pi}{3}=\\frac{2\\pi}{3}$",
+      explanation: "",
       right_option: 2,
+      selected_option: null,
     },
     {
       question_id: 3,
-      question: `$-2\\sqrt3+6i$ এর আর্গুমেন্ট কোনটি? `,
-      options: [
-        "$-\\frac{\\pi}{3}$",
-        "$\\frac{\\pi}{3}$",
-        "$\\frac{2\\pi}{3}$",
-        "$-\\frac{2\\pi}{3}$",
-      ],
+      question: `গ্লুকোজের কতগুলো স্টেরিও সমাণু সম্ভব?`,
+      options: ["13", "14", "15", "16"],
       explanation:
-        "$-2+\\sqrt3+6i\\hspace{1mm} এর \\hspace{1mm}আর্গুমেন্ট,\\theta=\\pi-\\tan^{-1}|\\frac{6}{-\\sqrt3}|\\newline=\\pi-\\tan^{-1}\\sqrt3\\newline \\pi-\\frac{\\pi}{3}=\\frac{2\\pi}{3} $",
-      right_option: 2,
+        "গ্লুকোজের অণুতে চারটি কাইরাল কার্বন বিদ্যমান। সুতরাং সম্ভাব্য = 2<sup>4</sup> = 16 টি।",
+      right_option: 3,
+      selected_option: null,
     },
     {
       question_id: 4,
-      question: `$\\frac{5-i}{2-3i}$ এর মডুলাস ও আর্গুমেন্ট কত?`,
-      options: [
-        "$\\ 2 \\cdot \\frac{\\pi}{2}$ ",
-        "$\\sqrt{2} \\cdot \\frac{\\pi}{2}$ ",
-        "$\\ 2 \\cdot \\frac{\\pi}{4}$ ",
-        "$\\sqrt{2} \\cdot \\frac{\\pi}{4}$ ",
-      ],
-      explanation:
-        "$\\begin{aligned}\\dfrac{5-i}{2-3i}=\\dfrac{\\left( 5-i\\right) \\times \\left( 2+3i\\right) }{\\left( 2-3i\\right) \\times \\left( 2+3i\\right) }=\\dfrac{10+13i+3}{13}\\\\ =\\dfrac{\\left( 5-i\\right) \\times \\left( 2+3i\\right) }{2^{2}-\\left( 3i\\right) ^{2}}=\\dfrac{13+13i}{13}\\\\ =\\dfrac{10-2i+5i-3i^{2}}{13}=1+i\\end{aligned}\\newline  মডুলাস= \\sqrt{1^{2}+2^{2}}= \\sqrt{2}\\newline  আর্গুমেন্ট=tan -\\dfrac{1}{1}=\\tan ^{-1}\\left( 1\\right) =\\dfrac{\\pi }{4}$",
-      right_option: 3,
+      question: `টটোমারিজম প্রদর্শন করে কোন যৌগটি?`,
+      options: ["প্রোপানোন", "প্রোপিন", "প্রোপানোল", "প্রোপানয়িক এসিড"],
+      explanation: "",
+      right_option: 0,
+      selected_option: null,
     },
     {
       question_id: 5,
-      question: ` $i^2$ = $-1$ হলে $\\frac{i+i^{-1}}{i-i^{-1}}এর\\hspace{1mm}মান \\hspace{1mm}কত?$`,
-      options: ["0 ", "-2i ", " 2i", "2 "],
+      question: `নিচের কোনটি আলোক সমাণুতা প্রদর্শন করবে না?`,
+      options: [
+        "CH<sub>3</sub>-CH=CH-C<sub>2</sub>H<sub>5</sub>",
+        "CH<sub>3</sub>-CH(OH)COOH",
+        "C<sub>6</sub>H<sub>5</sub>-CH=CH-CH(OH)COOH",
+        "C<sub>6</sub>H<sub>5</sub>-CHB<sub>r</sub>CH<sub>3</sub>",
+      ],
       explanation:
-        "$\\frac{i+i^{-1}}{i-i^{-1}}=\\frac{i+\\frac{1}{i}}{i-\\frac{1}{i}}=\\frac{i^2+1}{i^2-1}=\\frac{-1+1}{-1-1}=0$",
+        "CH<sub>3</sub>-CH=CH-C<sub>2</sub>H<sub>5</sub> যৌগে কাইরাল কার্বন নেই। তাই উক্ত যৌগটি আলোক সমাণুতা প্রদর্শন করবে না।",
       right_option: 0,
+      selected_option: null,
     },
     {
       question_id: 6,
-      question:
-        "$z=1-\\frac{i}{1-\\frac{i}{1+i}}$ জটিল সংখ্যাটির মডুলাস ও আর্গুমেন্ট-  ",
+      question: `নিম্নের কোনটি জ্যামিতিক সমাণুতা প্রদর্শন করে?`,
       options: [
-        "$\\ 1,0$",
-        "$\\ 1,  \\frac{\\pi}{2} $",
-        "$\\ 1, {\\pi}$",
-        "$\\ 1, \\frac{3\\pi}{2} $",
+        "CH<sub>2</sub> = CH-CH<sub>3</sub>",
+        "CH<sub>3</sub>CH(OH)COOH",
+        "CH<sub>3</sub>CH=CH-CH<sub>3</sub>",
+        "CH<sub>3</sub>CH<sub>2</sub>CH=CH<sub>2</sub>",
       ],
-      explanation: `1-$\\frac{i}{1-\\frac{i}{1+i}}$ = 1- $\\frac{i}{\\frac{1+i-1}{1+i}}$ = 1-(1+i)=-i <br> 
-        মডুলাস= $\\sqrt{{(-1)}^2 + {0}^2}$ = 1, <br>
-        আর্গুমেন্ট= $\\tan^{-1} (\\frac{-1}{0})$ = $2{\\pi}-tan^{-1} (\\infty)$= $2{\\pi}-\\frac{\\pi}{2}$=$\\frac{3\\pi}{2}$`,
-      right_option: 3,
+      explanation: "",
+      right_option: 2,
       selected_option: null,
     },
     {
       question_id: 7,
-      question: "$\\frac{5-i}{2-3i}$ এর আর্গুমেন্ট কত?",
-      options: [
-        "$\\frac{\\pi}{4} $",
-        "$\\frac{\\pi}{2} $",
-        "$\\frac{2pi}{3}$",
-        "${\\pi}$",
-      ],
-      explanation: `$\\frac{5-i}{2-3i}$ = $\\frac{(5-i)(2+3i)}{4+9}$ = $\\frac{10+13i+3}{13}$ = $\\frac{13+13i}{13}=1-i$ <br> আর্গুমেন্ট =$tan^{-1}(\\frac{1}{1})$ = $tan^{-1}(1)$ = $\\frac{\\pi}{4}$ `,
-      right_option: 0,
-      selected_option: null,
-    },
-    {
-      question_id: 8,
-      question: "$\\frac{1+i}{1-i} $  এর পরম মান হলো -",
-      options: ["0", "1", "$\\sqrt{2}$", "i"],
-      explanation: ` $\\frac{1+i}{1-i}$ = $\\frac{(1+i)(1+i)}{(1-i)(1+i)}$ = $\\frac{(1+i)^{2}}{1-i^{2}}$ = $\\frac{1+2i+i^{2}}{1+1}$ = $\\frac{2i}{2}$ = $i$
-  
-  
-  অর্থাৎ , $\\frac{1+i}{1-i}$ = $i$ = $0+i$    
-  $\\therefore$ পরম মান বা মডুলাস = $\\sqrt{0^2+1^2}$ = 1 `,
-      right_option: 1,
-      selected_option: null,
-    },
-    {
-      question_id: 9,
-      question: "$\\frac{i-i^{-1}}{i+2i^{-1}}$  এর মান এবং নতি হবে যথাক্রমে -",
-      options: [
-        "0,0",
-        "-2i,$\\frac{-\\pi}{2}$",
-        "2i,$\\frac{\\pi}{2}$",
-        "-2,${\\pi}$",
-      ],
-      explanation: `মান = $\\frac{i-i^{-2}}{i+2i^{-2}}$ = $\\frac{i^2-1}{i^2+2}$ = $-2$ <br>
-        -2 = -2+i0,<br>
-        $\\theta$ = $\\tan^{-1}\\frac {0}{-2} $ =  $\\tan^{-1} 0$ = $ {\\pi} $`,
-      right_option: 3,
-      selected_option: null,
-    },
-    {
-      question_id: 10,
-      question: "$\\frac{1}{1+i}$ জটিল সংখ্যাটির অবস্থান কোথায়?",
-      options: [
-        "১ম চতুর্ভাগে",
-        "২য় চতুর্ভাগে ",
-        "৩য় চতুর্ভাগে",
-        "৪র্থ চতুর্ভাগে",
-      ],
-      explanation: `$\\frac{ 1}{ 1+i }$ = $\\frac{ 1}{ 2}$ - i$\\frac{ 1}{ 2}$ ; যা  ৪র্থ চতুর্ভাগে অবস্থিত ।`,
-      right_option: 3,
-      selected_option: null,
-    },
-    {
-      question_id: 11,
-      question: "-2-5i সংখ্যটি কোন চতুর্ভাগে আবস্থিত ?",
-      options: ["প্রথম", "দ্বিতীয়", "তৃতীয়", "চতুর্থ"],
-      explanation: ``,
+      question: `কোন যৌগটি রেজোনেন্স ধর্ম প্রদর্শন করে না?`,
+      options: ["বেনজিন", "মিথাইল বেনজিন", "সাইক্লোহেক্সেন", "পিরিডিন"],
+      explanation: "",
       right_option: 2,
       selected_option: null,
     },
     {
-      question_id: 12,
-      question: "দুইটি অনবন্ধি জটিল সংখ্যার সমষ্টি ও গুনফল ক্যামন হবে?",
+      question_id: 8,
+      question: `ডাইমিথাইল ইথার ও ইথানল পরস্পর কি ধরনের সমাণু?`,
       options: [
-        "বাস্তব সংখ্যা",
-        "জটিল সংখ্যা",
-        "অবাস্তব সংখ্যা",
-        "ঋনাত্তক সংখ্যা",
+        "জ্যামিতিক সমাণু",
+        "অবস্থান সমাণু",
+        "কার্যকরী মূলক সমাণু",
+        "টটোমারিজম",
       ],
-
-      explanation: `Solve:<br>দুইটি অনবন্ধি জটিল সংখ্যার সমষ্টি ও গুনফল বাস্তব । কারন ,<br>
-        Z=x + iy, $\\overline{Z}$=x - iy,Z + $\\overline{Z}$ = x + iy + x - iy = 2x, বাস্তব ।<br>
-        Z$\\overline{Z}$= (x + iy) (x - iy) = $x^2 + y^2$, বাস্তব ।`,
-
+      explanation: "",
+      right_option: 2,
+      selected_option: null,
+    },
+    {
+      question_id: 9,
+      question: `কোনটি নিউক্লিওফাইল?`,
+      options: [
+        "CH<sub>3</sub>NH<sub>2</sub>",
+        "CH<sub>3</sub><sup>+</sup>",
+        "BF<sub>3</sub>",
+        "SO<sub>3</sub>",
+      ],
+      explanation:
+        "প্রশম নিউক্লিওফাইলঃ CH<sub>3</sub>NH<sub>2</sub> <br> ধনাত্মক ইলেক্ট্রোফাইলঃ CH<sub>3</sub><sup>+</sup> <br> প্রশম ইলেক্ট্রোফাইলঃ BF<sub>3</sub>, SO<sub>3</sub>",
       right_option: 0,
       selected_option: null,
     },
     {
+      question_id: 10,
+      question: `নিচের কোনটি বেনজিন চক্রকে সক্রিয় করে?`,
+      options: [
+        "-NH<sub>2</sub>",
+        "-NO<sub>2</sub>",
+        "-CHO",
+        "-SO<sub>3</sub>H",
+      ],
+      explanation:
+        "বেনজিন বলয় সক্রিয়কারী মূলককে (-CH<sub>3</sub>, -OH, -NH<sub>2</sub>) অর্থো-প্যারা নির্দেশক বলা হয়।",
+      right_option: 0,
+      selected_option: null,
+    },
+    {
+      question_id: 11,
+      question: `ফেনলের সাথে Zn এর বিক্রিয়ায় উৎপন্ন হয়?`,
+      options: ["বেনজিন", "টলুইন", "অ্যানিলিন", "কোনোটিই নয়"],
+      explanation: "",
+      right_option: 0,
+      selected_option: null,
+    },
+    {
+      question_id: 12,
+      question: `S<sub>N</sub>1 বিক্রিয়ার ক্ষেত্রে সক্রিয়তার সঠিক গ্রহ কোনটি`,
+      options: [
+        "R<sub>2</sub>CH-X &gt; R<sub>3</sub>C-X &gt; RCH<sub>2</sub>-X",
+        "R<sub>3</sub>C-X &gt; R<sub>2</sub>CH-X &gt; RCH<sub>2</sub>-X",
+        "RCH<sub>2</sub>-X &gt; R<sub>2</sub>CH-X &gt; R<sub>3</sub>C-X",
+        "R<sub>2</sub>CH-X &gt; RCH<sub>2</sub>-X &gt; R<sub>3</sub>C-X",
+      ],
+      explanation:
+        "S<sub>N</sub>1 এর বেলায় এর স্বক্রিয়তা ক্রম হলো R<sub>3</sub>C-X &gt; R<sub>2</sub>CH-X &gt; RCH<sub>2</sub>-X কিন্তু S<sub>N</sub>2 এর বেলায় এর স্বক্রিয়তা ক্রম হলো S<sub>N</sub>1 এর বিপরীত RCH<sub>2</sub>-X &gt; R<sub>2</sub>CH-X &gt; R<sub>3</sub>C-X",
+      right_option: 1,
+      selected_option: null,
+    },
+    {
       question_id: 13,
-      question: "$z = \\frac{-4-3i}{i}$ এর কাল্পনিক অংশ  কত ?",
-      options: ["3", "4", "-4", "-3"],
-      explanation: `$z = \\frac{-4-3i}{i}$ = -$\\frac{4}{i}+\\frac{3i}{i}$<br>= $\\frac{4i}{i^2}+3$<br>= 4i + 3<br>= 3 + 4i <br> কাল্পনিক অংশ =4`,
-
+      question: `এনজাইমসমূহ কোন শ্রেণীর যৌগ?`,
+      options: ["খনিজ পদার্থ", "প্রোটিন", "তৈল বা চর্বি", "ফ্যাটি এসিড"],
+      explanation:
+        "জৈবিক বিক্রিয়ার প্রভাবক বা অনুঘটক রূপে ক্রিয়াশীল টারসিয়ারি প্রোটিনকে এনজাইম বলে।",
       right_option: 1,
       selected_option: null,
     },
     {
       question_id: 14,
-      question: "$\\frac{1}{a+i}=\\frac{i}{a-i} $ হলে a এর মান কত?",
-      options: ["1", "$\\frac{i}{2}$", "-1", "-$\\frac{i}{2}$"],
-      explanation: `$\\frac{1}{a+i}=\\frac{i}{a-i}$<br> a - i = ia - $i^2$ <br>ia -1 = a - 1 <br>বাস্তব এবং কাল্পনিক অংক সমিক্রিত করে পাই,-1 = a এবং  a = -1 <br>অর্থাৎ a = -1`,
-
+      question: `কোন যৌগটি অ্যালিফেটিক ও অ্যারোমেটিক উভয় ধর্ম প্রদর্শন করে?`,
+      options: ["বেনজিন", "সাইক্লোহেক্সেন", "টলুইন", "ক্লোরোবেনজেন"],
+      explanation:
+        "টলুইন যৌগটি অ্যালিফেটিক ও অ্যারোমেটিক উভয় ধর্ম প্রদর্শন করে। কারণ টলুইনে মিথাইল গ্রুপটি অ্যালিফেটিক ধর্ম এবং ফিনাইল গ্রুপটি অ্যারোমেটিক ধর্ম প্রদর্শন করে।",
       right_option: 2,
       selected_option: null,
     },
     {
       question_id: 15,
-      question:
-        "$\\frac{2+3i}{2-i}$=P + Qi হলে ,এবং P,Q বাস্তব সংখ্যা হলে , Q = ?",
+      question: `বিক্রিয়াটির উৎপাদক কি -<br> CH<sub>3</sub>-CH=CH<sub>2</sub> + HBr →`,
       options: [
-        "$\\frac{4}{5}$",
-        "$\\frac{8}{3}$",
-        "$\\frac{8}{5}$",
-        "$\\frac{7}{5}$",
+        "CH<sub>3</sub>-CH<sub>2</sub>-CH<sub>2</sub>_B<sub>r</sub>",
+        "CH<sub>3</sub>-CHB<sub>r</sub>-CH<sub>2</sub>B<sub>r</sub>",
+        "CH<sub>3</sub>-CHB<sub>r</sub>-CH<sub>3</sub>",
+        "কোনোটিই নয়",
       ],
-      explanation: `$\\frac{2+3i}{2-i}=\\frac{(2+3i)(2+i)}{(2-i)(2+i)}$<br><br>$=\\frac{4+2i+6i+3i^2}{2^2-i^2}$<br><br>$=\\frac{4+8i-3}{4+1}$<br><br>
-      =$\\frac{1+8i}{5}$<br><br> $=\\frac{1}{5}+\\frac{8}{5}i$<br><br>so,$\\frac{2+3i}{2-i}$=P + Qi = $\\frac{1}{5}$ + $\\frac{8}{5}$<br><br>
-      Q=$\\frac{8}{5}$<br>`,
+      explanation: "",
       right_option: 2,
       selected_option: null,
     },
     {
       question_id: 16,
-      question: "$\\dfrac{1}{1+2i}$ এর জটিল অনুবন্ধী নিচের কোনটি ?",
+      question: `কাঁদুনে গ্যাসের গঠন কোনটি?`,
       options: [
-        "$\\dfrac{1}{2i-1}$",
-        "$1-2i$",
-        "$\\dfrac{1+2i}{5}$",
-        "$\\dfrac{1-2i}{5}$",
+        "Cl<sub>3</sub>C-NO<sub>2</sub>",
+        "Cl<sub>2</sub>HC-NO<sub>2</sub>",
+        "Br<sub>3</sub>C-NO<sub>2</sub>",
+        "I<sub>3</sub>C-NO<sub>2</sub>",
       ],
-      explanation: `$\\dfrac{1}{1+2i}  $   এর জটিল অনুবন্ধী$ =\\dfrac{1}{1-2i}=\\dfrac{\\left( 1+2i\\right) }{\\left( 1-2i\\right) \\left( 1+2i\\right) }=\\dfrac{1+2i}{1+4}=\\dfrac{1+2i}{5}$`,
-      right_option: 2,
+      explanation:
+        "কাঁদুনে গ্যাস বা ক্লোরোপিক্রিন (Cl<sub>3</sub>C-NO<sub>2</sub>) তৈল জাতীয় পদার্থ এবং অশ্রু উৎপাদক বলে কাঁদুনে গ্যাস সেলে এটি ব্যবহৃত হয়। এর স্ফুটনাঙ্ক 112&deg;C।",
+      right_option: 0,
       selected_option: null,
     },
     {
       question_id: 17,
-      question:
-        "$z_{1}=3+2i$ এবং  $z_{2}=3-2i$ হলে  $ z_{1}^{2}+z_{1}z_{2}+z_{2}^{2}$ এর মান কত?",
-      options: ["$21$", "$22$", "$23$", "$24$"],
-      explanation: `$z_{1}^{2}+z_{1}z_{2}+z_{2}^{2} =\\left( z_{1}+z_{2}\\right) ^{2}-z_{1}z_{2}\\\\\\hspace{2.2cm} =\\left( 3+2i+3-2i\\right)^2 -\\left( 3+2i\\right) \\left( 3-2i\\right) \\\\ \\hspace{2.2cm}=36-\\left\\{ 3^{2}-\\left( 2i\\right) ^{2}\\right\\} \\\\ \\hspace{2.2cm}=36-\\left( 9-4i^{2}\\right) =36-13 =23$`,
-      right_option: 2,
+      question: `ফ্রিডেল ক্রাফট বিক্রিয়া একটি`,
+      options: [
+        "যুতো বিক্রিয়া",
+        "প্রতিস্থাপন বিক্রিয়া",
+        "জারণ বিজারণ বিক্রিয়া",
+        "অপসারণ বিক্রিয়া",
+      ],
+      explanation: "",
+      right_option: 1,
       selected_option: null,
     },
     {
       question_id: 18,
-      question:
-        "$z_{1}=1+i$ এবং  $z_{2}=2i+3$ হলে  $\\left| z_{1}z_{2}\\right|$ এর মান কত?",
-      options: ["$26$", "$\\sqrt{26}$", "$5\\sqrt{2}$", "$50$"],
-      explanation: ` Here  $z_{1}=1+i$        ,       $z_{2}=2i+3$ <br><br>
-        $ \\left| z_{1}z_{2}\\right| =\\left| 1+i\\right| \\left| 2i+3\\right| \\\\$<br>$\\hspace{1cm} = \\sqrt{1^{2}+1^{2}}\\times \\sqrt{2^{2}+3^{2}}=\\sqrt{2}\\times \\sqrt{13}= \\sqrt{26}$`,
-      right_option: 1,
+      question: `কোনটি সর্বাধিক স্থিতিশীল কার্বোনিয়াম আয়ন?`,
+      options: [
+        "C<sup>+</sup>R<sub>3</sub>",
+        "C<sup>+</sup>HR<sub>2</sub>",
+        "C<sup>+</sup>H<sub>2</sub>R",
+        "C<sup>+</sup>H<sub>3</sub>",
+      ],
+      explanation:
+        "C<sup>+</sup>R<sub>3</sub> আয়নের তিনটি ইলেকট্রন প্রদানকারী গ্রুপ যুক্ত থাকায়, কেন্দ্রীয় পরমাণুর ধনাত্মক চার্জ অনেকটা প্রশমিত হয় এবং সেজন্য এর স্থিতিশীলতা বৃদ্ধি পায়।",
+      right_option: 0,
       selected_option: null,
     },
     {
       question_id: 19,
-      question: "$1+i$ জটিল সংখ্যাটির পোলার আকার নিচের কোনটি?",
+      question: `আলো ও বায়ুর উপস্থিতিতে ক্লোরোফর্ম উৎপন্ন করে - `,
       options: [
-        "$ \\sqrt{2}\\left( \\cos \\dfrac{\\pi }{4}-i\\sin \\dfrac{\\pi }{4}\\right)$",
-        "$ \\sqrt{2}\\left( \\cos \\dfrac{\\pi }{4}+i\\sin \\dfrac{\\pi }{4}\\right)$",
-        "$\\sqrt{2}\\left( \\sin \\dfrac{\\pi }{4}-i\\cos \\dfrac{\\pi }{4}\\right) $",
-        "$\\sqrt{2}\\left( \\sin \\dfrac{\\pi }{4}+i\\cos \\dfrac{\\pi }{4}\\right) $",
+        "ক্লোরাল",
+        "কার্বনিল ক্লোরাইডও",
+        "ব্লিচিং পাউডার",
+        "কার্বন টেট্রাক্লোরাইড",
       ],
-      explanation: ` $r=\\sqrt{1^{2}+1^{2}}=\\sqrt{2}      $        এবং      $  \\hspace{1mm}  \\theta =\\tan ^{-1}\\left( \\dfrac{1}{1}\\right) =\\dfrac{\\pi }{4}$<br>  $\\therefore  $  পোলার আকার $=r\\left( \\cos \\theta +i\\sin \\theta \\right)  =\\sqrt{2}\\left( \\cos\\dfrac{\\pi }{4}+i\\sin \\dfrac{\\pi }{4}\\right)$`,
-      right_option: 1,
+      explanation: "",
+      right_option: 0,
       selected_option: null,
     },
     {
       question_id: 20,
-      question: "$i=-1$   হলে      $  \\hspace{1mm}   i^{3597}=$ কত?",
-      options: ["$-i$", "$1$", "$-1$", "$i$"],
-      explanation: `$i$ এর পাওয়ারে থাকা সংখ্যার Last Digit কে 4 দিয়ে ভাগ করলে যেই ভাগশেষ পাওয়া যায় সেটি হবে $i$ simplified পাওয়ার। 3597 এর last 2 ডিজিট অর্থাৎ 97 কে 4 দিয়ে ভাগ করলে ভাগশেষ পাওয়া যায় 1, অর্থাৎ$  i^{3597} = i^{1} = i $`,
-      right_option: 3,
+      question: `বেনজিন H<sub>2</sub>SO<sub>4</sub> এবং HNO<sub>3</sub> এর সাথে বিক্রিয়া করে উৎপন্ন করে - `,
+      options: ["নাইট্রোবেনজিন", "নাইট্রোফেনল", "টলুইন", "বেনজোয়িক এসিড"],
+      explanation: "",
+      right_option: 0,
       selected_option: null,
     },
     {
       question_id: 21,
-      question: "$\\dfrac{1}{1+2i}$ এর জটিল অনুবন্ধী নিচের কোনটি ?",
+      question: `সাইজেফ সূত্র কোন ধরনের বিক্রিয়ার ক্ষেত্রে প্রযোজ্য?`,
       options: [
-        " $\\dfrac{1}{2i-1}$",
-        "$1-2i$",
-        "$\\dfrac{1+2i}{5}$",
-        "$\\dfrac{1-2i}{5}$",
+        "S<sub>N</sub>1",
+        "E1",
+        "যুত বিক্রিয়া",
+        "হাইড্রোজিনেশন বিক্রিয়া",
       ],
-      explanation: `$\\dfrac{1}{1+2i}  $   এর জটিল অনুবন্ধী$ =\\dfrac{1}{1-2i}=\\dfrac{\\left( 1+2i\\right) }{\\left( 1-2i\\right) \\left( 1+2i\\right) }=\\dfrac{1+2i}{1+4}=\\dfrac{1+2i}{5}$`,
-      right_option: 2,
+      explanation:
+        "সাইজেফ সূত্র E1 বিক্রির ক্ষেত্রে প্রযোজ্য। এ সূত্রমতে অধিক শাখা যুক্ত অ্যালকিনটিই প্রধান উৎপাত হবে।",
+      right_option: 1,
       selected_option: null,
     },
     {
       question_id: 22,
-      question:
-        "$z_{1}=3+2i$ এবং  $z_{2}=3-2i$ হলে  $ z_{1}^{2}+z_{1}z_{2}+z_{2}^{2}$ এর মান কত?",
-      options: ["$21$", "$22$", "$23$", "$24$"],
-      explanation: `$z_{1}^{2}+z_{1}z_{2}+z_{2}^{2} =\\left( z_{1}+z_{2}\\right) ^{2}-z_{1}z_{2}\\\\\\hspace{2.2cm} =\\left( 3+2i+3-2i\\right)^2 -\\left( 3+2i\\right) \\left( 3-2i\\right) \\\\ \\hspace{2.2cm}=36-\\left\\{ 3^{2}-\\left( 2i\\right) ^{2}\\right\\} \\\\ \\hspace{2.2cm}=36-\\left( 9-4i^{2}\\right) =36-13 =23$`,
-      right_option: 2,
+      question: `ইথানল বাষ্প উচ্চ তাপমাত্রায় Al<sub>2</sub>O<sub>3</sub> এর উপর দিয়ে চালনা করলে যে দ্রব্য পাওয়া যায় তা হচ্ছে - `,
+      options: [
+        "HOCH<sub>2</sub>-CH<sub>2</sub>OH",
+        "CH=CH",
+        "CH<sub>3</sub>OH",
+        "CH<sub>2</sub> = CH<sub>2</sub>",
+      ],
+      explanation:
+        "ইথানল বাষ্প উচ্চ তাপমাত্রায় Al<sub>2</sub>O<sub>3</sub> এর উপর দিয়ে চালনা করলে ইথিন পাওয়া যায়।",
+      right_option: 3,
       selected_option: null,
     },
     {
       question_id: 23,
-      question:
-        "$z_{1}=1+i$ এবং  $z_{2}=2i+3$ হলে  $\\left| z_{1}z_{2}\\right|$ এর মান কত?",
-      options: ["$26$", "$\\sqrt{26}$", "$5\\sqrt{2}$", "$50$"],
-      explanation: ` Here  $z_{1}=1+i$        ,       $z_{2}=2i+3$ <br><br>
-        $ \\left| z_{1}z_{2}\\right| =\\left| 1+i\\right| \\left| 2i+3\\right| \\\\$<br>$\\hspace{1cm} = \\sqrt{1^{2}+1^{2}}\\times \\sqrt{2^{2}+3^{2}}=\\sqrt{2}\\times \\sqrt{13}= \\sqrt{26}$`,
+      question: `নিজের বিক্রিয়াটির প্রধান উৎপাদ কি - <br> CH<sub>3</sub>CH<sub>2</sub>OH + H<sub>2</sub>SO<sub>4</sub> (excess) $\\xrightarrow{180 \\degree C}$ `,
+      options: [
+        "CH<sub>3</sub>CH<sub>3</sub>",
+        "CH<sub>2</sub> = CH<sub>2</sub>",
+        "CH<sub>3</sub>CH-O-CH<sub>2</sub>-CH<sub>3</sub>",
+        "CH<sub>3</sub>CHO",
+      ],
+      explanation:
+        "CH<sub>3</sub>CH<sub>2</sub>OH + H<sub>2</sub>SO<sub>4</sub> (excess) $\\xrightarrow{180 \\degree C}$ CH<sub>3</sub> = CH<sub>3</sub> + H<sub>2</sub>0 + H<sub>2</sub>SO<sub>4</sub>",
       right_option: 1,
       selected_option: null,
     },
     {
       question_id: 24,
-      question: "$1+i$   জটিল সংখ্যাটির পোলার আকার নিচের কোনটি?",
+      question: `নিজের প্রক্রিয়াটির প্রধান উৎপাদক কি - <br> CH<sub>3</sub>-CH=CH-CHO $\\xrightarrow{NaBH_{4}}$ ?`,
       options: [
-        "$ \\sqrt{2}\\left( \\cos \\dfrac{\\pi }{4}-i\\sin \\dfrac{\\pi }{4}\\right)$",
-        "$ \\sqrt{2}\\left( \\cos \\dfrac{\\pi }{4}+i\\sin \\dfrac{\\pi }{4}\\right)$",
-        "$\\sqrt{2}\\left( \\sin \\dfrac{\\pi }{4}-i\\cos \\dfrac{\\pi }{4}\\right) $",
-        "$\\sqrt{2}\\left( \\sin \\dfrac{\\pi }{4}+i\\cos \\dfrac{\\pi }{4}\\right) $",
+        "CH<sub>3</sub>-CH<sub>2</sub>-CH<sub>2</sub>-CHO",
+        "CH<sub>3</sub>-CH=CH-CH<sub>2</sub>OH",
+        "CH<sub>3</sub>-CH<sub>2</sub>-CH<sub>2</sub>-CH<sub>2</sub>OH",
+        "CH<sub>3</sub>-CH(OH)-CH<sub>2</sub>-CH<sub>3</sub>",
       ],
-      explanation: ` $r=\\sqrt{1^{2}+1^{2}}=\\sqrt{2}      $        এবং      $  \\hspace{1mm}  \\theta =\\tan ^{-1}\\left( \\dfrac{1}{1}\\right) =\\dfrac{\\pi }{4}$<br>  $\\therefore  $  পোলার আকার $=r\\left( \\cos \\theta +i\\sin \\theta \\right)  =\\sqrt{2}\\left( \\cos\\dfrac{\\pi }{4}+i\\sin \\dfrac{\\pi }{4}\\right)$`,
+      explanation:
+        "CH<sub>3</sub>-CH=CH-CHO $\\xrightarrow{NaBH_{4}}$ CH<sub>3</sub>-CH=CH-CH<sub>2</sub>OH",
       right_option: 1,
       selected_option: null,
     },
     {
       question_id: 25,
-      question: "$i=-1$ হলে $ \\hspace{1mm} i^{3597}=$ কত?",
-      options: ["$-i$", "$1$", "$-1$", "$i$"],
-      explanation: `$i$     এর পাওয়ারে থাকা সংখ্যার Last Digit কে 4 দিয়ে ভাগ করলে যেই ভাগশেষ পাওয়া যায় সেটি হবে $i$  simplified পাওয়ার। 3597 এর last  2 ডিজিট অর্থাৎ 97 কে 4 দিয়ে ভাগ করলে ভাগশেষ পাওয়া যায়  1, অর্থাৎ$  i^{3597} = i^{1} = i $`,
-      right_option: 3,
+      question: `অ্যালকিনের কার্বন-কার্বন দৈর্ঘ্য কত?`,
+      options: ["0.121 nm", "0.134 nm", "0.154 nm", "0.164 nm"],
+      explanation: "C-C : 0.154 nm; C=C : 0.134 nm; C≡C : 0.120 nm",
+      right_option: 1,
       selected_option: null,
     },
     {
       question_id: 26,
-      question: "i কাল্পনিক সংখ্যা হলে , $ \\frac{1}{i^{51}} $ এর মান -",
-      options: ["1", "-1", "i", "-i"],
-      explanation:
-        "$ \\frac{1}{i^{51}}  = \\frac{1}{i^{3}}  \\newline \\hspace{1mm}  =\\frac{1}{-i} \\newline \\hspace{1mm}  =\\frac{1}{-i^{2}}=i$",
-      right_option: 2,
+      question: `কোন জৈব যৌগটি অম্লধর্মী?`,
+      options: [
+        "R-CH=CH<sub>2</sub>",
+        "R-CH=CH-CH<sub>2</sub>",
+        "R-C=C-CH<sub>3</sub>",
+        "R-CH<sub>2</sub>-C≡CH",
+      ],
+      explanation: "",
+      right_option: 3,
       selected_option: null,
     },
     {
       question_id: 27,
-      question: " $i+i^{2}+i^{3}+i^{4}$ এর মান কোনটি?",
-      options: ["0", "1", "-1", "i"],
-      explanation: "যেকোনো 4 টি ক্রমিক ঘাতওয়ালা i এর যোগফল শূণ্য হয়",
+      question: `অ্যারোমেটিক প্রতিস্থাপন বিক্রিয়ায় নিম্নের কোন গ্রুপটি মেটা নির্দেশক - `,
+      options: ["-NO<sub>2</sub>", "-OH", "-Cl", "-CH<sub>3</sub>"],
+      explanation: `<table style="width:100%; max-width: 30rem; border-collapse: collapse;" border="1px solid black">
+      <tr>
+        <td style="border:1px solid black">অর্থো ও প্যারা</th>
+        <td style="border:1px solid black">-R, -OH, -NH<sub>2</sub>, -X</th>
+      </tr>
+      <tr>
+        <td style="border:1px solid black">মেটা নির্দেশক</td>
+        <td style="border:1px solid black">-NO<sub>2</sub>, -CN, -SO<sub>3</sub>H, -CHO, -COOH</td>
+      </tr>
+    </table>`,
       right_option: 0,
       selected_option: null,
     },
     {
       question_id: 28,
-      question: " $\\frac{i^{176}}{2i+\\frac{1}{i^{33}}}=?$",
-      options: ["0", "-1", "i", "-i"],
+      question: `বেনজিন ডায়াজোনিয়াম লবণ কে কপার চূর্ণ এবং হ্যালোজেন এসিড সহ উত্তপ্ত করলে কি উৎপন্ন হয়?`,
+      options: ["নাইট্রোবেনজিন", "সায়ানোবেনজিন", "ক্লোরোবেনজিন", "ফেনল"],
       explanation: "",
-      right_option: 3,
+      right_option: 2,
       selected_option: null,
     },
     {
       question_id: 29,
-      question: " $2i^{2}=-2$ হলে , $i+i^{2}+i^{3}+.....+i^{23}=$ কত?",
-      options: ["-1", "-i", "1", "i"],
+      question: `ন্যাপথলিনে $\\pi$ ইলেকট্রন সংখ্যা কয়টি?`,
+      options: ["2", "5", "10", "14"],
+      explanation: "",
+      right_option: 2,
+      selected_option: null,
+    },
+    {
+      question_id: 30,
+      question: `অ্যালকোহল শনাক্ত করার জন্য নিচের কোন বিকারকটি ব্যবহার করা হয়?`,
+      options: [
+        "টলেন বিকারক",
+        "গ্রিগনার্ড বিকারক",
+        "লুকাস বিকারক",
+        "কোনোটিই নয়",
+      ],
+      explanation:
+        "লুকাস বিকারক (গাড় HCl + ZnCl<sub>2</sub>) দ্বারা অ্যালকোহল এবং টলেন বিকারক (Ag (NH<sub>3</sub>)OH) দ্বারা অ্যালডিহাইড শনাক্ত করা যায়।",
+      right_option: 2,
+      selected_option: null,
+    },
+    {
+      question_id: 31,
+      question: `নিম্নের কোন বিক্রিয়কের সাথে অ্যালকোহল ও ফেনল উভয়েই বিক্রিয়া করে -`,
+      options: [
+        "FeCl<sub>3</sub> দ্রবণ",
+        "ধাতব Na",
+        "ব্রোমিন পানি",
+        "লুকাস বিকারক",
+      ],
+      explanation: "",
+      right_option: 1,
+      selected_option: null,
+    },
+    {
+      question_id: 32,
+      question: `অটোমোবাইল ইঞ্জিনে অ্যান্টিফ্রিজ রূপে ব্যবহৃত হয় - `,
+      options: [
+        "অ্যাসিটোন",
+        "টেট্রাইথাইল লেড",
+        "ম্যালেয়িক অ্যানহাইড্রাইড",
+        "প্রোপালিন গ্লাইকল",
+      ],
+      explanation:
+        "অটোমোবাইল ইঞ্জিনে ইথিলিন গ্লাইকল বা প্রোপালিন গ্লাইকল ব্যবহৃত হয়।",
+      right_option: 3,
+      selected_option: null,
+    },
+    {
+      question_id: 33,
+      question: `লেবারম্যান পরীক্ষার সাহায্যে সনাক্ত করা হয় - `,
+      options: ["ফেনল", "ক্লোরোফর্ম", "অ্যানিলিন", "জাইলিন"],
       explanation: "",
       right_option: 0,
       selected_option: null,
     },
     {
-      question_id: 30,
-      question: "$\\sqrt{2+8\\sqrt{5}i}=?$ ",
-      options: [
-        "$\\pm(\\sqrt{10}+\\sqrt{8}i)$",
-        "$\\pm(\\sqrt{8}+\\sqrt{10}i)$",
-        "$\\pm(\\sqrt{10}+\\sqrt{2}i)$",
-        "$\\pm(\\sqrt{10}+\\sqrt{4}i)$",
-      ],
-
+      question_id: 34,
+      question: `রেক্টিফাইড স্পিরিট এর স্ফুটনাঙ্ক কত?`,
+      options: ["77.1 &deg;C", "78.1 &deg;C", "79.1 &deg;C", "80.1 &deg;C"],
       explanation:
-        "$r=\\sqrt{2^{2}+{(8\\sqrt{5})}^2}=18  \\newline $ বর্গমূল = $\\pm \\frac{1}{\\sqrt{2}}(\\sqrt{18+2}  + i\\sqrt{18-2}) \\newline =\\pm \\frac{1}{\\sqrt{2}}(\\sqrt{20}  + i\\sqrt{16}) \\newline =\\pm \\frac{1}{\\sqrt{2}}(2\\sqrt{5}  + i4)  = \\pm \\frac{1}{\\sqrt{2}}.2.(\\sqrt{5}  + 2i) =\\pm(\\sqrt{10}+\\sqrt{8}i)$",
+        "রেক্টিফাইড স্পিরিট 95.6% ইথানল ও 4.4% পানির সমস্ফুটন মিশ্রণ এবং এর স্ফুটনাঙ্ক 78.1 &deg;C।",
       right_option: 0,
       selected_option: null,
     },
     {
-      question_id: 31,
-      question: ` $ -i $ এর  বর্গমূল-`,
-      options: [
-        "$\\pm (\\frac{1}{2} -i)$",
-        "$\\pm (\\frac{1}{2} +i)$",
-        "$\\pm \\frac{1}{\\sqrt{2}} (1-i)$",
-        "$\\pm (1+\\frac{i}{2} )$",
-      ],
-      explanation: ``,
-      right_option: 0,
-    },
-    {
-      question_id: 32,
-      question: ` $\\sqrt{i} + \\sqrt{-i} $ এর  মান  কোনটি?`,
-      options: ["$2$", "$1$", "$\\sqrt{2}$", "$0$"],
-      explanation: ``,
-      right_option: 0,
-    },
-    {
-      question_id: 33,
-      question: ` যদি  1  এর  একটি  ঘনমূল  $\\omega $ হয়  তবে  $ (1+ \\omega +\\omega^2) $ এর  মান  কত?`,
-      options: [" 0", " 1", " -1", " 2"],
-      explanation: `$(1+\\omega+\\omega^2)=0$`,
-      right_option: 0,
-    },
-    {
-      question_id: 34,
-      question: ` $ 1 + \\omega^{19999} +  \\omega^{15557} = ?$ `,
-      options: ["$0$", "$1$", "$-1$", "$2$"],
-      explanation: ``,
-      right_option: 0,
-    },
-    {
       question_id: 35,
-      question: `$\\omega$ যদি এককের একটি জটিল (কাল্পনিক) ঘনমূল হয়, তবে $ (1-\\omega+\\omega^2)(1-\\omega^2+\\omega^4) $ এর  মান- `,
-      options: ["4", "6", "3", "2"],
-      explanation: `$(1-\\omega+ \\omega^2)(1-\\omega^2+\\omega^4) [\\because \\omega^4 = \\omega^3\\omega = \\omega]$
-    <br>
-    $=(1-\\omega+ \\omega^2-2\\omega) (1-\\omega^2+\\omega^4-2\\omega^2)=(-2\\omega)(-2\\omega^2)=4\\omega^3=4$
-    `,
-      right_option: 0,
+      question: `কোন যৌগটি কেন্দ্রাকর্ষী সংযোজন বিক্রিয়া দিবে?`,
+      options: [
+        "C<sub>2</sub>H<sub>4</sub>",
+        "C<sub>2</sub>H<sub>5</sub>Br",
+        "CH<sub>3</sub>CHO",
+        "C<sub>2</sub>H<sub>6</sub>",
+      ],
+      explanation: "দ্বিযোজী কার্বনিল মূলক (&gt;C=O) যুক্ত যৌগে (অ্যালডিহাইড ও কিটোনে) নিউক্লিওফিলিক সংযোজন বিক্রিয়া ঘটে।",
+      right_option: 2,
+      selected_option: null,
     },
     {
       question_id: 36,
-      question:
-        "$\\omega যদি একটি জটিল ঘনমূল হয় তবে (১-\\omega)^2(1-\\omega^2)^2=?$",
-      options: ["1", "3", "$\\omega^2$", "9"],
-      explanation:
-        "$(1-\\omegas)^2(1-\\omega^2)^2=(1-2\\omega+\\omegaa^2)(1-2\\omega^2+\\omega^2)=(1+\\omega+\\omega+\\omega^2-3\\omega)(1-2\\omega^2+\\omega^2+\\omega)=(3\\omega)(\\omega^2)=9$",
-      right_option: 3,
+      question: `কোন যৌগটি ফেহলিং দ্রবণ এর সঙ্গে বিক্রিয়া করে লাল বর্ণের অধঃক্ষেপ দেয়?`,
+      options: [
+        "CH<sub>3</sub>CH<sub>2</sub>CHO",
+        "CH<sub>3</sub>CO<sub>2</sub>CH<sub>3</sub>",
+        "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH",
+        "CH<sub>3</sub>COCH<sub>3</sub>",
+      ],
+      explanation: "অ্যালডিহাইড সমূহ ফেহলিং দ্রবণ কে বিজারিত করে লালচে অধঃক্ষেপ তৈরি করে। কিটোন সমূহকে বিক্রিয়া দেয় না।",
+      right_option: 0,
+      selected_option: null,
     },
     {
       question_id: 37,
-      question:
-        "$\\omega এককের একটি নির্দিষ্ট ঘনমূল হলে রাশিমালা (1+\\omega-\\omega^5)(\\omega+\\omega^2-1)(\\omega^5+1-\\omega) এর মান- $",
-      options: ["4", "8", "-8", "-4"],
-      explanation:
-        "$(1+\\omega-\\omega^5)(\\omega+\\omega^2-1)(\\omega^5+1-\\omega)=(-2\\omega^2)(-2)(-2\\omega)=-8\\omega^3=-8$",
-      right_option: 2,
+      question: `একটি জৈব যৌগ টলেন বিকারক পরীক্ষায় চকচকে সিলভার দর্পণ সৃষ্টি করে যৌগটি কি প্রকারের হবে?`,
+      options: [
+        "অ্যালডিহাইড",
+        "কিটোন",
+        "অ্যালকোহল",
+        "ইথার",
+      ],
+      explanation: "টলেন বিকারক অ্যালডিহাইড এর সাথে বিক্রিয়ায় চকচকে সিলভার দর্পণ সৃষ্টি করে।",
+      right_option: 0,
+      selected_option: null,
     },
-    {
-      question_id: 38,
-      question: " $(-1+\\sqrt-3)^4+(-1-\\sqrt-3)^4=?$ ",
-      options: ["-1", "-4", "-9", "-16"],
-      explanation:
-        " $(-1+\\sqrt-3)^4+(-1-\\sqrt-3)^4=(2\\omega)^4+(2\\omega^2)^=16\\omega^4+16\\omega^8=16\\omega+16\\omega^2=16(\\omega+omega^2)=16*(-1)=-16$",
-      right_option: 3,
-    },
-    {
-      question_id: 39,
-      question: "Z  জটিল  সংখ্যা  হলে ।z-2| =5  দ্বারা কিসের সমীকরণ বুঝায়? ",
-      options: ["সরলরেখা", "বৃত্ত", "পরাবৃত্ত ", "অধিবৃত্ত "],
-      explanation:
-        "$।z-2।=5\\Rightarrow| x+iy-2|=5\\Rightarrow\\sqrt((x-2)^2+y^2)=5$",
-      right_option: 1,
-    },
-    {
-      Question_id: 40,
-      question:
-        "z=z+iy হইলে ।z-5|=3 দ্বারা নির্দেশিত সঞ্চারপথের সমীকরণ একটি বৃও হলে,ইহার কেন্দ্র কত ? ",
-      options: ["(0,5)", "(5,0)", "(0,-5)", "(-5,0)"],
-      explanation:
-        "$|z-5|=3\\Rightarrow|x+iy-5|=3\\Rightarrow(x-5)^2+y^2=3^2 এর কেন্দ্র (5,0)$ ",
-      right_option: 1,
-    },
+
+
+
   ],
   wrong_percentage: 0,
   score: 0,
