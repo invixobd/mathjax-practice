@@ -119,7 +119,7 @@ export const mcqExam = {
         "K<sub>3</sub>Hgl<sub>3</sub>",
       ],
       explanation: "",
-      right_option: 3,
+      right_option: 1,
       selected_option: null,
     },
     {
